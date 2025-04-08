@@ -221,7 +221,7 @@ const Projects = () => {
       description: "Spotify Clone Where we can play audio songs online. On this music website we will add some music albums and multiple songs. We can play song online, and we will also create the song controller button. we will use React js and Tailwind CSS🎵🎧🎶⭐",
       image: img2,
       github: "https://github.com/ShimaaMohamedRoshdi/Spotify-Clone",
-      demo: "https://vercel.com/shimaamohamedroshdis-projects/spotify-clone-shimaa",
+      demo: "https://spotify-clone-shimaa.vercel.app/",
       tech: ["React","Tailwind CSS","React Router ","Hooks","JavaScript (ES6+)","HTML5 Audio API ","Css3"]
     },
     {
