@@ -221,7 +221,7 @@ const Projects = () => {
       description: "Spotify Clone Where we can play audio songs online. On this music website we will add some music albums and multiple songs. We can play song online, and we will also create the song controller button. we will use React js and Tailwind CSS🎵🎧🎶⭐",
       image: img2,
       github: "https://github.com/ShimaaMohamedRoshdi/Spotify-Clone",
-      demo: "https://spotify-clone-five-alpha.vercel.app/",
+      demo: "https://vercel.com/shimaamohamedroshdis-projects/spotify-clone-shimaa",
       tech: ["React","Tailwind CSS","React Router ","Hooks","JavaScript (ES6+)","HTML5 Audio API ","Css3"]
     },
     {
@@ -248,7 +248,7 @@ const Projects = () => {
       description: "🛒 Modern eCommerce Website with React & Redux Toolkit This project is a fully functional eCommerce website built with React.js, Redux Toolkit, and Tailwind CSS. It provides a seamless shopping experience with features like a cart system, product search, filtering, order tracking, and checkout process.🛍️🧥",
       image: img5,
       github: "https://github.com/ShimaaMohamedRoshdi/E-Shop",
-      demo: "https://movie-app-a8e3.vercel.app",
+      demo: "https://e-shop-rho-sandy.vercel.app/",
       tech: ["React","Redux Toolkit","Tailwind CSS","Axios","React Router","Context Provider", "Css3","Html5","Javascript"]
     },
     {
