@@ -209,10 +209,10 @@ const Projects = () => {
     {
       id: 12,
       title: "Portfolio Website",
-      description: "This project is an eCommerce website built using React JS and Tailwind CSS. The aim is to create a seamless shopping experience for users, featuring a modern design and responsive layout.",
+      description: "This project is a portfolio website built using React JS and React-bootstrap. The aim is to create a modern and responsive design for a personal portfolio, featuring a clean and professional layout.",
       image: img12,
-      github: "https://github.com/ShimaaMohamedRoshdi/Spotify-Clone",
-      demo: "https://ecommerce-react-dl6b.vercel.app/",
+      github: "https://github.com/ShimaaMohamedRoshdi/MyPortifilio",
+      demo: "https://my-portifilio123.vercel.app/",
       tech: ["React","TypeScript","React-Bootstrap","Framer Motion",  "Css3", "Html5","Javascript"]
     },
     {

@@ -1,4 +1,5 @@
 {
+  "homepage": "https://ShimaaMohamedRoshdi.github.io/MyPortifilio",
   "name": "portfolio",
   "private": true,
   "version": "0.0.0",
@@ -6,6 +7,8 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
@@ -15,6 +18,7 @@
     "@popperjs/core": "^2.11.8",
     "bootstrap": "^5.3.3",
     "framer-motion": "^11.0.8",
+    "gh-pages": "^6.3.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^5.0.1",
