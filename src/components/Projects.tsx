@@ -13,6 +13,11 @@ import img9 from "../assets/images/solarimage.png";
 import img10 from "../assets/images/interiordesignimage.png";
 import img11 from "../assets/images/bondii.png";
 import img12 from "../assets/images/portifilioimage.png";
+import img13 from "../assets/images/blogappimage.png"; 
+import img14 from "../assets/images/resturantimg.png"; 
+import img15 from "../assets/images/coffeeimage.png"; 
+import img16 from "../assets/images/TODOLISTimage.png"; 
+import img17 from "../assets/images/fokirimage.png"; 
 
 
 const ProjectSection = styled.section`
@@ -207,6 +212,15 @@ const Projects = () => {
       tech: ["React", "Tailwind CSS", "Css3", "Html5","Javascript"]
     },
     {
+      id: 13,
+      title: "Blog App",
+      description: "A modern, responsive personal blog built with Next.js, Tailwind CSS, and Contentlayer.Features include dynamic routing, dark mode, Markdown-based content, and Supabase integration.Perfect for showcasing articles, tutorials, or personal projects with a clean and performant design.",
+      image: img13,
+      github: "https://github.com/ShimaaMohamedRoshdi/BlogApp",
+      demo: "https://blog-app-nu-pearl.vercel.app/",
+      tech: ["React","Next.js","Contentlayer","Tailwind CSS","Supabase"]
+    },
+    {
       id: 12,
       title: "Portfolio Website",
       description: "This project is a portfolio website built using React JS and React-bootstrap. The aim is to create a modern and responsive design for a personal portfolio, featuring a clean and professional layout.",
@@ -305,6 +319,43 @@ const Projects = () => {
       github: "https://github.com/ShimaaMohamedRoshdi/websitte_banddi",
       demo: "https://shimaamohamedroshdi.github.io/websitte_banddi/",
       tech: ["Css3","Html5","Javascript","webfonts"]
+    },
+  
+    {
+      id: 14,
+      title: "Resturant Website",
+      image: img14,
+      description: "A responsive and elegant restaurant website created with React.js, Bootstrap, CSS3, HTML5, and JavaScript. The site features a modern design with a clean layout, ensuring an optimized user experience across all devices. It showcases responsive navigation, interactive elements, and a polished, user-friendly interface. ",
+      github: "https://github.com/ShimaaMohamedRoshdi/e-commerce_resturant",
+      demo: "https://e-commerce-resturant.vercel.app/",
+      tech: ["React","Bootstrap","Css3","Html5","Javascript"]
+    },
+    {
+      id: 15,
+      title: "Coffee Website",
+      image: img15,
+      description: "A responsive and elegant coffee website created with Bootstrap, CSS3, and HTML5. The site features a modern design with a clean layout, ensuring an optimized user experience across all devices. It showcases responsive navigation, interactive elements, and a polished, user-friendly interface. ",
+      github: "https://github.com/ShimaaMohamedRoshdi/CAFEWEBSITE",
+      demo: "https://shimaamohamedroshdi.github.io/CAFEWEBSITE/",
+      tech: ["Bootstrap","Css3","Html5"]
+    },
+    {
+      id: 16,
+      title: "Todo List",
+      image: img16,
+      description: "A simple and responsive To-Do List app built with HTML5, CSS3, and vanilla JavaScript.Allows users to add, delete, and mark tasks as completed with smooth UI interactions.",
+      github: "https://github.com/ShimaaMohamedRoshdi/To-Do-List",
+      demo: "https://shimaamohamedroshdi.github.io/To-Do-List/",
+      tech: ["Bootstrap","Css3","Html5","Javascript"]
+    },
+    {
+      id: 17,
+      title: "Fokir website",
+      image: img17,
+      description: "A responsive and elegant coffee website created with Bootstrap, CSS3, and HTML5. The site features a modern design with a clean layout, ensuring an optimized user experience across all devices. It showcases responsive navigation, interactive elements, and a polished, user-friendly interface. ",
+      github: "https://github.com/ShimaaMohamedRoshdi/website-fokir-lasttupdatte",
+      demo: "https://shimaamohamedroshdi.github.io/website-fokir-lasttupdatte/",
+      tech: ["Bootstrap","Css3","Html5"]
     },
   
   ];
