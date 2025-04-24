@@ -1,3 +1,5 @@
+// trigger redeploy
+
 import React from 'react';
 import styled from '@emotion/styled';
 import { motion } from 'framer-motion';
@@ -117,7 +119,7 @@ const Hero: React.FC = () => {
   animate={{ opacity: 1, y: 0 }}
   transition={{ duration: 0.8, delay: 0.2 }}
 >
-  I specialize in building modern, responsive web applications using **React.js**, **TypeScript**, and **Tailwind CSS**. I am passionate about creating intuitive and seamless user experiences with a focus on clean code, problem-solving, and collaboration.
+  I specialize in building modern, responsive web applications using **React.js**, **TypeScript**,**Next.js** ,**Tailwind CSS** and **Bootstrap **. I am passionate about creating intuitive and seamless user experiences with a focus on clean code, problem-solving, and collaboration.
 </Subtitle>
         {/* <Title
           initial={{ opacity: 0, y: 20 }}

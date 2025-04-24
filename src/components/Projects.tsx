@@ -18,6 +18,7 @@ import img14 from "../assets/images/resturantimg.png";
 import img15 from "../assets/images/coffeeimage.png"; 
 import img16 from "../assets/images/TODOLISTimage.png"; 
 import img17 from "../assets/images/fokirimage.png"; 
+import img18 from "../assets/images/foodieimage.png"; 
 
 
 const ProjectSection = styled.section`
@@ -351,11 +352,20 @@ const Projects = () => {
     {
       id: 17,
       title: "Fokir website",
-      image: img17,
+     image: img17,
       description: "A responsive and elegant coffee website created with Bootstrap, CSS3, and HTML5. The site features a modern design with a clean layout, ensuring an optimized user experience across all devices. It showcases responsive navigation, interactive elements, and a polished, user-friendly interface. ",
       github: "https://github.com/ShimaaMohamedRoshdi/website-fokir-lasttupdatte",
       demo: "https://shimaamohamedroshdi.github.io/website-fokir-lasttupdatte/",
       tech: ["Bootstrap","Css3","Html5"]
+    },
+    {
+      id: 18,
+      title: "Foodie website",
+      image: img18,
+      description: "A responsive and elegant food website . The site features a modern design with a clean layout, ensuring an optimized user experience across all devices. It showcases responsive navigation, interactive elements, and a polished, user-friendly interface. ",
+      github: "https://github.com/ShimaaMohamedRoshdi/Foodie_Master",
+      demo: "https://shimaamohamedroshdi.github.io/Foodie_Master/",
+      tech: ["Css3","Html5","Javascript"]
     },
   
   ];
