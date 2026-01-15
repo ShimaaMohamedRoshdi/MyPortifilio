@@ -1,0 +1,29 @@
+/* Import Bootstrap CSS */
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+/* Custom styles */
+body {
+  padding-top: 76px; /* Adjust for fixed navbar */
+}
+
+.transition-transform {
+  transition: transform 0.3s ease;
+}
+
+.btn:hover .transition-transform {
+  transform: rotate(90deg);
+}
+
+/* Custom card hover effect */
+.card {
+  transition: transform 0.3s ease;
+  padding: 2em;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.read-the-docs {
+  color: #888;
+}
